@@ -1,0 +1,230 @@
+@media screen and (max-width: 576px) {
+  .banner-container {
+    flex-direction: column;
+    /* margin: 20px; */
+    gap: 40px;
+    width: 90%;
+  }
+  .banner-title {
+    font-size: 36px;
+  }
+  .banner-description {
+    font-size: 16px;
+  }
+  .banner-content {
+    height: auto;
+    margin-top: 32px;
+  }
+  .banner-shape {
+    font-size: 50px;
+  }
+  .head {
+    height: auto;
+  }
+  .navbar {
+    width: 100%;
+  }
+  nav ul {
+    display: none;
+  }
+  .none {
+    display: none;
+  }
+  .menu-bar {
+    display: block;
+  }
+  nav {
+    justify-content: space-between;
+    padding: 50px 20px 20px 20px;
+  }
+  head {
+    width: 100%;
+  }
+  .btn {
+    display: flex;
+    gap: 20px;
+  }
+  .primary-btn {
+    font-size: 0.8rem;
+    padding: 16px 23px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 13%;
+    left: 79%;
+    max-width: 140px;
+    padding: 8px;
+    height: auto;
+  }
+  .text-overlay-type-two {
+    position: absolute;
+    top: 49%;
+    left: 21%;
+    max-width: 140px;
+    padding: 8px;
+    height: auto;
+  }
+  .text-overlay-type-two h3,
+  .text-overlay h3 {
+    font-size: 28px;
+  }
+  .text-overlay-type-two p,
+  .text-overlay p {
+    font-size: 10px;
+  }
+  .team-image-overlay-text {
+    transform: translate(-50%, -50%);
+    left: 30%;
+    top: 85%;
+  }
+  .primary-btn-two {
+    font-size: 0.8rem;
+    padding: 16px 23px;
+  }
+  .habits-content,
+  .advertise-container {
+    flex-direction: column;
+  }
+  .habits-container {
+    padding-top: 40px;
+  }
+  .image {
+    width: 100%;
+  }
+  .image img {
+    max-width: 200px;
+    margin: 20px;
+  }
+  .habits-title,
+  .ad-title {
+    font-size: 32px;
+  }
+  .ad-title {
+    width: 100%;
+  }
+  .habits-description {
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+  }
+  .advertise-container {
+    width: 90%;
+    padding: 20px;
+  }
+  .advertise-content img {
+    height: auto;
+    object-fit: cover;
+  }
+  .advertise-text > button {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .table-container {
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 29px;
+  }
+  .table-section-head {
+    font-size: 30px;
+    text-align: left;
+  }
+  .table-section-description {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 13px;
+  }
+  .team-images {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .team-items {
+    max-width: 280px;
+  }
+  .team {
+    width: 94%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding-bottom: 18px;
+  }
+  .team-title {
+    font-size: 30px;
+  }
+  .team-description {
+    text-align: left;
+  }
+  .hide {
+    display: none;
+  }
+  .footer-container,
+  .footer-main-section {
+    flex-direction: column;
+  }
+  .footer-head {
+    width: 100%;
+    height: auto;
+  }
+  .footer-container {
+    gap: 30px;
+    width: 90%;
+  }
+  .footer-head-title {
+    font-size: 4.5rem;
+  }
+  /* .services {
+        display: inline;
+    } */
+  .footer-main-section {
+    max-width: 100%;
+  }
+  .gender-btn {
+    width: 62%;
+  }
+  .card-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+  }
+  .planner-header {
+    font-size: 30px;
+  }
+  .card-description {
+    font-size: 15px;
+    padding: 0;
+  }
+  .planner-btn {
+    margin: 14px 0;
+  }
+  .ul-li-text {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  ul {
+    padding: 10px 20px;
+  }
+  .container-header {
+    font-size: 35px;
+  }
+  .container-title {
+    font-size: 20px;
+  }
+  .planner-title {
+    margin-bottom: 12px;
+  }
+  .circle {
+    width: 30px;
+    height: 30px;
+    margin: 10px 3px;
+  }
+  .menu-bar i {
+    font-size: 34px;
+  }
+}
